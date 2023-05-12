@@ -56,10 +56,12 @@ ul{
     font-style: normal;
     font-weight: 500;
 }
-li{
+a{
     font-size: 17px;
     font-style: italic;
     font-weight: 400;
+    text-decoration: none;
+    color: black;
 }
 .title{
     font-size: 48px;
@@ -77,4 +79,7 @@ li{
     width: 20vw;
     height: 1px;
     background-color: black;
+}
+a:hover{
+    font-weight: 500;
 }
