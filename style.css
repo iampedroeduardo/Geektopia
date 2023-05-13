@@ -33,6 +33,10 @@ main{
 footer{
     grid-area: footer;
     background-color: #BD69FF;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
 }
 .search{
     width: 35vw;
@@ -82,4 +86,27 @@ a{
 }
 a:hover{
     font-weight: 500;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.pfooter{
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
+    margin-bottom: 1vw;
+}
+.icon{
+    height: 1.5vw;
+    margin: 0.5vw;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
 }
