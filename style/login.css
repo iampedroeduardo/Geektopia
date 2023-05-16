@@ -51,7 +51,7 @@ footer {
     padding-left: 0.5vw;
 }
 .login{
-    margin-right: 1vw;<a href="../index.html"><button class="botao">Cadastre-se</button></a>
+    margin-right: 1vw;
 }
 ul {
     list-style: none;
@@ -118,7 +118,7 @@ a:hover {
 
 .icons {
     display: flex;
-    flex-direction: row;<a href="../index.html"><button class="botao">Cadastre-se</button></a>
+    flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-around;
 }
@@ -152,10 +152,10 @@ a button.botao{
     border-radius: 2px;
     font-size: 24px;
     font-weight: 600;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
 }
 .contbotao{
     display: flex;
     justify-content: center;
-
-
 }
