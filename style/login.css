@@ -43,7 +43,16 @@ footer {
 .logo {
     width: 15vw;
 }
-
+.search{
+    width: 35vw;
+    border-radius: 2px;
+    border: 0;
+    height: 2vw;
+    padding-left: 0.5vw;
+}
+.login{
+    margin-right: 1vw;
+}
 ul {
     list-style: none;
     margin-bottom: 1.5vw;
