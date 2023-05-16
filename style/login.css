@@ -33,6 +33,8 @@ nav {
 main {
     grid-area: main;
     padding-top: 2vw;
+    display: flex;
+    justify-content: center;
 }
 
 footer {
@@ -133,8 +135,9 @@ form {
     flex-wrap: nowrap;
     justify-content: center;
 }
-.botao{
+a button.botao{
     width: 20vw;
     margin: auto;
     height: 2.5vw;
+    background-color: #BD69FF;
 }
