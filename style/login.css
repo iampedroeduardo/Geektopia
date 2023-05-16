@@ -37,8 +37,7 @@ footer{
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-around;
-}0;
-￼    width: 20vw;
+}
 .search{
     width: 35vw;
     border-radius: 2px;
@@ -55,8 +54,7 @@ footer{
 ul{
     list-style: none;
     margin-bottom: 1.5vw;
-}0;
-￼    width: 20vw;
+}
 .titulolista{
     font-size: 20px;
     font-style: normal;
