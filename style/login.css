@@ -10,7 +10,7 @@
 .container {
     display: grid;
     grid-template-columns: 20vw 80vw;
-    grid-template-rows: 5vw 75vw 20vw;
+    grid-template-rows: 5vw 40vw 20vw;
     grid-template-areas: "header header""nav main""footer footer";
 }
 header {
@@ -35,9 +35,13 @@ main {
     padding-top: 2vw;
 }
 
-footer {
+footer{
     grid-area: footer;
-    margin-right: 1vw;
+    background-color: #BD69FF;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
 }
 
 .logo {
@@ -96,27 +100,24 @@ a:hover {
     font-weight: 500;
 }
 
-.footer {
+.footer{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
 }
-
-.pfooter {
+.pfooter{
     font-weight: 700;
     font-size: 24px;
     color: white;
     margin-bottom: 1vw;
 }
-
-.icon {
+.icon{
     height: 1.5vw;
     margin: 0.5vw;
 }
-
-.icons {
+.icons{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
