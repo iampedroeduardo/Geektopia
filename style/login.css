@@ -143,19 +143,22 @@ form {
     flex-wrap: nowrap;
     justify-content: center;
 }
-a button.botao{
+.botao{
     width: 20vw;
     margin: auto;
     height: 2.5vw;
     background-color: #BD69FF;
     border: 0;
-    color: white;
     border-radius: 2px;
-    font-size: 22px;
-    font-weight: 600;
     margin-top: 1vw;
     margin-bottom: 1vw;
     text-align: center;
+}
+.botao a{
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+    font-style: normal;
 }
 .contbotao{
     display: flex;
