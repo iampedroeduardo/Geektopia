@@ -179,6 +179,9 @@ a:hover{
         text-decoration: none;
         color: black;
     }
+    li{
+        margin-left: 1vw;
+    }
     .title{
         font-size: 48px;
         font-weight: 800;
