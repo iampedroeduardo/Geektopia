@@ -114,7 +114,7 @@ a:hover{
     .container{
         display: grid;
         grid-template-columns: 100vw;
-        grid-template-rows: 5vw 4vw 75vw 20vw;
+        grid-template-rows: 5vw auto 75vw 20vw;
         grid-template-areas: "header" "nav" "main" "footer";
     }
     header{
