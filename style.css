@@ -84,6 +84,48 @@
         height: 1px;
         background-color: black;
     }
+.divisao{
+    font-size: 2.5vw;
+    font-weight: 600;
+    margin-top: 7vw;
+    text-align: center;
+}
+.opcoes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    margin-top: 6vh;
+}
+.circle{
+    display: flex;
+    flex-direction: column;
+    width: 12vw;
+    height: 24vh;
+}
+.descricao{
+    font-size: 1vw;
+    font-weight: 600;
+    text-align: center;
+}
+.temas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 6vh;
+    margin-left: 10vw;
+    margin-right: 10vh;
+    margin-bottom: 6vh;
+    align-items: center;
+}
+.nome{
+    margin-top: 6vh;
+}
+.nome:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
     a:hover{
         font-weight: 500;
     }
