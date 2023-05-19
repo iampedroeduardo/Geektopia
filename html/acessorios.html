@@ -5,37 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Geektopia</title>
-    <link rel="stylesheet" href="style/principal.css">
+    <link rel="stylesheet" href="../style/produtos.css">
 </head>
 <body>
     <div class="container">
         <header>
             <div class="divlogo">
-                <a href="index.html"><img src="imagens/logo.png" class="logo"></a>
+                <a href="../index.html"><img src="../imagens/logo.png" class="logo"></a>
             </div>
             <div class="pesquisa">
                 <input type="search" class="search" placeholder="O que você procura?">
             </div>
             <div class="login">
-                <a href="html/login.html"><img src="imagens/login.png"></a>
+                <a href="login.html"><img src="../imagens/login.png"></a>
             </div>
         </header>
         <nav>
             <ul>
-                <li class="titulolista">Categorias</li>
-                <li><a href="html/acessorios.html">Acessórios</a></li>
-                <li><a href="html/funkopop.html">Funko Pop</a></li>
-                <li><a href="html/livrosehqs.html">Livros & HQs</a></li>
-                <li><a href="html/roupas.html">Roupas</a></li>
+                <li class="titulolista select">Categorias</li>
+                <li class="pagina"><a href="acessorios.html">Acessórios</a></li>
+                <li><a href="funkopop.html">Funko Pop</a></li>
+                <li><a href="livrosehqs.html">Livros & HQs</a></li>
+                <li><a href="roupas.html">Roupas</a></li>
             </ul>
             <ul>
                 <li class="titulolista">Temas</li>
-                <li><a href="html/dc.html">DC</a></li>
-                <li><a href="html/harrypotter.html">Harry Potter</a></li>
-                <li><a href="html/marvel.html">Marvel</a></li>
-                <li><a href="html/senhordosaneis.html">Senhor dos Anéis</a></li>
-                <li><a href="html/starwars.html">Star Wars</a></li>
-                <li><a href="html/supermariobros.html">Super Mario Bros</a></li>
+                <li><a href="dc.html">DC</a></li>
+                <li><a href="harrypotter.html">Harry Potter</a></li>
+                <li><a href="marvel.html">Marvel</a></li>
+                <li><a href="senhordosaneis.html">Senhor dos Anéis</a></li>
+                <li><a href="starwars.html">Star Wars</a></li>
+                <li><a href="supermariobros.html">Super Mario Bros</a></li>
             </ul>
         </nav>
         <main>
@@ -45,36 +45,54 @@
                 <div class="linha"></div>
             </div>]
             <div class="produtos">
-                <figure>
-                    <img src="../imagens/batrangue.jpg">
-                    <legend>Batrangue</legend>
-                    <legend>R$ 49,90</legend>
-                </figure>
-                <figure>
-                    <img src="../imagens/manopla.jpg">
-                    <legend>Manopla do Thanos</legend>
-                    <legend>R$ 199,90</legend>
-                </figure>
-                <figure>
-                    <img src="../imagens/capacete.jpg">
-                    <legend>Capacete do Stormtrooper</legend>
-                    <legend>R$ 99,90</legend>
-                </figure>
-                <figure>
-                    <img src="../imagens/mapa.jpg">
-                    <legend>Mapa do Maroto</legend>
-                    <legend>R$ 149,90</legend>
-                </figure>
-                <figure>
-                    <img src="../imagens/anel.jpg">
-                    <legend>Anel do Senhor dos Anéis</legend>
-                    <legend>R$ 99,90</legend>
-                </figure>
-                <figure>
-                    <img src="../imagens/chapeu.jpg">
-                    <legend>Chapéu do Mario</legend>
-                    <legend>R$ 49,90</legend>
-                </figure>
+                <div class="produto">
+                    <figure>
+                        <img src="../imagens/batrangue.jpg">
+                        <legend class="nome">Batrangue</legend>
+                        <legend class="preco">R$ 49,90</legend>
+                    </figure>
+                    <button class="botcom"><a href="compra1.html">COMPRAR</a></button>
+                </div>
+                <div class="produto">
+                    <figure>
+                        <img src="../imagens/manopla.jpg">
+                        <legend class="nome">Manopla do Thanos</legend>
+                        <legend class="preco">R$ 199,90</legend>
+                    </figure>
+                    <button class="botcom"><a href="compra1.html">COMPRAR</a></button>
+                </div>
+                <div class="produto">
+                    <figure>
+                        <img src="../imagens/capacete.jpg">
+                        <legend class="nome">Capacete do Stormtrooper</legend>
+                        <legend class="preco">R$ 99,90</legend>
+                    </figure>
+                    <button class="botcom"><a href="compra1.html">COMPRAR</a></button>
+                </div>
+                <div class="produto">
+                    <figure>
+                        <img src="../imagens/mapa.jpg">
+                        <legend class="nome">Mapa do Maroto</legend>
+                        <legend class="preco">R$ 149,90</legend>
+                    </figure>
+                    <button class="botcom"><a href="compra1.html">COMPRAR</a></button>
+                </div>
+                <div class="produto">
+                    <figure>
+                        <img src="../imagens/anel.jpg">
+                        <legend class="nome">Anel do Senhor dos Anéis</legend>
+                        <legend class="preco">R$ 99,90</legend>
+                    </figure>
+                    <button class="botcom"><a href="compra1.html">COMPRAR</a></button>
+                </div>
+                <div class="produto">
+                    <figure>
+                        <img src="../imagens/chapeu.jpg">
+                        <legend class="nome">Chapéu do Mario</legend>
+                        <legend class="preco">R$ 49,90</legend>
+                    </figure>
+                    <button class="botcom"><a href="compra1.html">COMPRAR</a></button>
+                </div>
             </div>
         </main>
         <footer>
@@ -82,10 +100,10 @@
                 <p class="pfooter">CONTATO</p>
                 <div class="icons">
                     <a href="">
-                        <img src="imagens/telefone.png" class="icon">
+                        <img src="../imagens/telefone.png" class="icon">
                     </a>
                     <a href="gktopia.store@gmail.com">
-                        <img src="imagens/email.png" class="icon">
+                        <img src="../imagens/email.png" class="icon">
                     </a>
                 </div>
             </div>
@@ -93,13 +111,13 @@
                 <p class="pfooter">SIGA NOSSAS REDES</p>
                 <div class="icons">
                     <a href="https://www.instagram.com/gktopia.store/">
-                        <img src="imagens/instagram.png" class="icon">
+                        <img src="../imagens/instagram.png" class="icon">
                     </a>
                     <a href="twitter.com">
-                        <img src="imagens/twitter.png" class="icon">
+                        <img src="../imagens/twitter.png" class="icon">
                     </a>
                     <a href="facebook.com">
-                        <img src="imagens/facebook.png" class="icon">
+                        <img src="../imagens/facebook.png" class="icon">
                     </a>
                 </div>
             </div>

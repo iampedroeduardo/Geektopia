@@ -1,0 +1,25 @@
+@import url('../style.css');
+.produto{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.produtos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.nome{
+    font-weight: 600;
+    font-size: 1vw;
+}
+.preco{
+    font-weight: 700;
+    font-size: 2vw;
+}
+.botcom{
+    width: 10vw;
+    height: 2vw;
+}
