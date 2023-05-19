@@ -48,7 +48,9 @@ figure{
     font-weight: 600;
 }
 .pagina{
-    font-weight: 500;
     border-right: 0.5vw solid black;
-    font-size: 24px;
+}
+.pagina a{
+    font-weight: 500;
+    font-size: 20px;
 }
