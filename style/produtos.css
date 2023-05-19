@@ -44,3 +44,10 @@ figure{
     font-style: normal;
     text-decoration: none;
 }
+.select{
+    font-weight: 600;
+}
+.pagina{
+    font-weight: 500;
+    border-right: 0.5vw solid black;
+}
