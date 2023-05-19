@@ -24,13 +24,17 @@
     width: 10vw;
     height: 2vw;
     background-color: #bd69ff;
-    color: white;
-    font-weight: 800;
-    font-size: 1.5vw;
+    justify-self: center;
 }
 figure{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: center;
+    text-align: center;
+}
+.compra{
+    color: white;
+    font-weight: 800;
+    font-size: 1.5vw;
 }
