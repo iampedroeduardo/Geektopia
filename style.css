@@ -6,6 +6,10 @@
         font-family: Montserrat;
         text-decoration: none;
     }
+a{
+    text-decoration: none;
+}
+
     .container{
         display: grid;
         grid-template-columns: 20vw 80vw;
