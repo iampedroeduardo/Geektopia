@@ -60,7 +60,7 @@
         font-style: normal;
         font-weight: 500;
     }
-    a{
+    .nav{
         font-size: 17px;
         font-style: italic;
         font-weight: 400;
@@ -84,7 +84,7 @@
         height: 1px;
         background-color: black;
     }
-    a:hover{
+    .nav:hover{
         font-weight: 500;
     }
     .footer{
@@ -173,7 +173,7 @@
             font-weight: 500;
             margin-right: 2vw;
         }
-        a{
+        .nav{
             font-size: 17px;
             font-style: italic;
             font-weight: 400;
@@ -198,7 +198,7 @@
             height: 1px;
             background-color: black;
         }
-        a:hover{
+        .nav:hover{
             font-weight: 500;
         }
         .footer{

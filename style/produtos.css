@@ -21,8 +21,8 @@
     font-size: 2vw;
 }
 .botcom{
-    width: 10vw;
-    height: 2vw;
+    width: 15vw;
+    height: 2.5vw;
     background-color: #bd69ff;
     justify-self: center;
 }
@@ -36,5 +36,6 @@ figure{
 .compra{
     color: white;
     font-weight: 800;
-    font-size: 1.5vw;
+    font-size: 1.3vw;
+    font-style: normal;
 }
