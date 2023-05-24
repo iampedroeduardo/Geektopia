@@ -54,7 +54,8 @@ header{
         margin-right: 1vw;
     }
     .logo, .fotologin{
-        height: clamp(43px,4.5vw,auto);
+        min-height: 43px;
+        height: 4.5vw;
     }
     ul{
         list-style: none;
