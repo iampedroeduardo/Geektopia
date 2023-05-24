@@ -58,5 +58,6 @@ figure{
 @media (max-width:900px){
     .pagina{
         border: 0;
+        margin-right: 2.5px; 
     }
 }
