@@ -58,6 +58,10 @@ figure{
 @media (max-width:900px){
     .pagina{
         border: 0;
-        margin-right: 2.5px; 
+    }
+    .pagina a{
+        font-weight: 500;
+        font-size: 20px;
+        margin-right: 2.5vw;
     }
 }
