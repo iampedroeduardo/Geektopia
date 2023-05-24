@@ -53,8 +53,7 @@ header{
     .login{
         margin-right: 1vw;
     }
-    .logo, .fotologin{
-        min-height: 43px;
+    .logo{
         height: 4.5vw;
     }
     ul{
