@@ -53,7 +53,7 @@ header{
     .login{
         margin-right: 1vw;
     }
-    .logo{
+    .logo, .fotologin{
         height: 4.5vw;
     }
     ul{
@@ -161,7 +161,7 @@ header{
         .login{
             margin-right: 1vw;
         }
-        .logo{
+        .logo, .fotologin{
             height: 45px;
         }
         ul{
