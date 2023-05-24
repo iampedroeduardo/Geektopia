@@ -8,9 +8,9 @@ label {
 }
 
 .campo {
-    width: 20vw;
+    width: 505px;
     margin: auto;
-    height: 2.5vw;
+    height: 55px;
 }
 
 form {
@@ -20,9 +20,9 @@ form {
     justify-content: center;
 }
 .botao{
-    width: 20vw;
+    width: 505px;
     margin: auto;
-    height: 2.5vw;
+    height: 55px;
     background-color: #BD69FF;
     border: 0;
     border-radius: 2px;
