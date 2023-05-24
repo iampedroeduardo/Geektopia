@@ -47,14 +47,14 @@ header{
         width: 35vw;
         border-radius: 2px;
         border: 0;
-        height: 2vw;
+        height: 20px;
         padding-left: 0.5vw;
     }
     .login{
         margin-right: 1vw;
     }
     .logo{
-        height: 60px;
+        height: 4.5vw;
     }
     ul{
         list-style: none;
