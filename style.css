@@ -161,6 +161,9 @@ header{
         .login{
             margin-right: 1vw;
         }
+        .logo{
+            height: 45px;
+        }
         ul{
             list-style: none;
             margin-bottom: 1.5vw;
