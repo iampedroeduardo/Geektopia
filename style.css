@@ -119,7 +119,7 @@ header{
         .container{
             display: grid;
             grid-template-columns: 100vw;
-            grid-template-rows: clamp(45px,5vw,auto) auto 125vh 20vw;
+            grid-template-rows: minmax(45px,5vw) auto 125vh 20vw;
             grid-template-areas: "header" "nav" "main" "footer";
         }
         header{
