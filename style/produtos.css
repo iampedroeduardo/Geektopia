@@ -58,6 +58,10 @@ figure{
 }
 .curiosidades{
     list-style: circle;
+    margin-left: 2vw;
+}
+iframe{
+    margin-left: 2vw;
 }
 @media (max-width:900px){
     .pagina{
