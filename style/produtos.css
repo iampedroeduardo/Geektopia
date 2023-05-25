@@ -56,6 +56,9 @@ figure{
     font-weight: 500;
     font-size: 20px;
 }
+.curiosidades{
+    list-style: circle;
+}
 @media (max-width:900px){
     .pagina{
         border: 0;
