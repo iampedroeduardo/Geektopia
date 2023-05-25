@@ -41,3 +41,30 @@
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
+.a{
+    display: flex;
+    justify-content: center;
+}
+@media (max-width:899px) {
+    .opcoes{
+        flex-direction: column;
+        justify-content:space-around;
+    }
+    .circle{
+        min-width: 200px;
+        max-width: 300px;
+        margin-bottom: 14vw;
+    }
+    .descricao{
+        font-size: 12px;
+    }
+    .divisao{
+        font-size: 25px;
+    }
+    .temas{
+        justify-content: center;
+    }
+    .nome{
+        padding: 2vw;
+    }
+}
