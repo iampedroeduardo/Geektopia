@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Geektopia</title>
     <link rel="stylesheet" href="style/principal.css">
+    <link rel="stylesheet" href="style/produtos.css">
 </head>
 <body>
     <div class="container">
@@ -23,19 +24,19 @@
         <nav>
             <ul>
                 <li class="titulolista">Categorias</li>
-                <li><a href="html/acessorios.html" class="nav">Acessórios</a></li>
-                <li><a href="html/funkopop.html" class="nav">Funko Pop</a></li>
-                <li><a href="html/livrosehqs.html" class="nav">Livros & HQs</a></li>
-                <li><a href="html/roupas.html" class="nav">Roupas</a></li>
+                <li class="nav" onclick="produto('Categoria','Acessórios',this)">Acessórios</li>
+                <li class="nav" onclick="produto('Categoria','Funko Pop',this)">Funko Pop</li>
+                <li class="nav" onclick="produto('Categoria','Livros & HQs',this)">Livros & HQs</li>
+                <li class="nav" onclick="produto('Categoria','Roupas',this)">Roupas</li>
             </ul>
             <ul>
                 <li class="titulolista">Temas</li>
-                <li><a href="html/dc.html" class="nav">DC</a></li>
-                <li><a href="html/harrypotter.html" class="nav">Harry Potter</a></li>
-                <li><a href="html/marvel.html" class="nav">Marvel</a></li>
-                <li><a href="html/senhordosaneis.html" class="nav">Senhor dos Anéis</a></li>
-                <li><a href="html/starwars.html" class="nav">Star Wars</a></li>
-                <li><a href="html/supermariobros.html" class="nav">Super Mario Bros</a></li>
+                <li class="nav" onclick="produto('Tema','DC',this)">DC</li>
+                <li class="nav" onclick="produto('Tema','Harry Potter',this)">Harry Potter</li>
+                <li class="nav" onclick="produto('Tema','Marvel',this)">Marvel</li>
+                <li class="nav" onclick="produto('Tema','Senhor dos Anéis',this)">Senhor dos Anéis</li>
+                <li class="nav" onclick="produto('Tema','Star Wars',this)">Star Wars</li>
+                <li class="nav" onclick="produto('Tema','Super Mario Bros',this)">Super Mario Bros</li>
             </ul>
         </nav>
         <main>
@@ -127,5 +128,6 @@
             </div>
         </footer>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
