@@ -75,7 +75,7 @@ function produto(tipo,categoria,elemento){
                     <figcaption class="nome">${produtos[i].nome}</figcaption>
                     <figcaption class="preco">R$ ${produtos[i].valor},90</figcaption>
                 </figure>
-                <button class="botcom"><a href="compra19.html" class="compra">COMPRAR</a></button>
+                <button class="botcom" onclick="compra(${produtos[i].nome},${produtos[i].valor})"><a class="compra">COMPRAR</a></button>
             </div>
             `;
         }
@@ -85,4 +85,195 @@ function produto(tipo,categoria,elemento){
     `;
     main.innerHTML = pagina;
     elemento.setAttribute("class","pagina");
+}
+function login(){
+    pagina = `
+    <div class="titulo">
+        <div class="linha"></div>
+        <p class="title">ENTRE</p>
+        <div class="linha"></div>
+    </div>
+    <form>
+        <label for="email">Email/Usuário</label>
+        <input type="email" name="email" id="email" class="campo">
+        <label for="senha">Senha</label>
+        <input type="password" name="senha" id="senha" class="campo">
+        <div class="contbotao">
+            <button class="botao"><a href="index.html">Enviar</a></button>
+        </div>
+    </form>
+    <div class="titulo">
+        <div class="linha"></div>
+        <p class="title">OU</p>
+        <div class="linha"></div>
+    </div>
+    <div class="contbotao">
+        <button class="botao" onclick="cadastro();"><a>Cadastre-se</a></button>
+    </div>
+    `;
+    let main = document.querySelector("main");
+    main.innerHTML = pagina;
+}
+function cadastro(){
+    let pagina = `
+    <div class="titulo">
+        <div class="linha"></div>
+        <p class="title">CADASTRE-SE</p>
+        <div class="linha"></div>
+    </div>
+    <form>
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" id="nome" class="campo">
+        <label for="usuario">Usuário</label>
+        <input type="text" name="usuario" id="usuario" class="campo">
+        <label for="cpf">CPF</label>
+        <input type="text" name="cpf" id="cpf" class="campo">
+        <label for="telefone">Telefone</label>
+        <input type="tel" name="telefone" id="telefone" class="campo">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" class="campo">
+        <label for="data">Data de Nascimento</label>
+        <input type="date" name="data" id="data" class="campo">
+        <label for="estado">Estado:</label>
+        <select name="estado" id="estado" class="campo">
+            <option>AC</option>
+            <option>AL</option>
+            <option>AM</option>
+            <option>AP</option>
+            <option>BA</option>
+            <option>CE</option>
+            <option>DF</option>
+            <option>ES</option>
+            <option>GO</option>
+            <option>MA</option>
+            <option>MT</option>
+            <option>MS</option>
+            <option>MG</option>
+            <option>PA</option>
+            <option>PB</option>
+            <option>PR</option>
+            <option>PE</option>
+            <option>PI</option>
+            <option>RR</option>
+            <option>RO</option>
+            <option>RJ</option>
+            <option>RN</option>
+            <option>RS</option>
+            <option>SC</option>
+            <option>SP</option>
+            <option>SE</option>
+            <option>TO</option>
+        </select>
+        <label for="#senha">Senha</label>
+        <input type="password" name="senha" id="senha" class="campo">
+        <label for="#confirma">Confirmar Senha</label>
+        <input type="password" name="confirma" id="confirma" class="campo">
+        <div class="contbotao">
+            <button class="botao"><a href="../index.html">Enviar</a></button>
+        </div>
+    </form>
+    `;
+    let main = document.querySelector("main");
+    main.innerHTML = pagina;
+}
+function compra(nome,valor){
+    let pagina = `
+    <div class="titulo">
+        <div class="linha"></div>
+        <p class="title">SUAS COMPRAS</p>
+        <div class="linha"></div>
+    </div>
+    <div class="box1">
+        <p class="descricao">${nome}</p>
+        <p class="preco1">R$ ${valor},90</p>
+    </div>
+    <div class="box2">
+        <p class="total">Total</p>
+        <p class="preco2">R$ ${valor},90</p>
+    </div>
+    <p class="ttl">Informações Pessoais</p><br>
+    <div class="borda1">
+        <div class="torto1">
+            <form>
+                <div class="nome">Nome Completo</div>
+                <input type="text" name="nomecompleto" class="in1">
+            </form>
+            <form>
+                <div class="nome">Telefone</div>
+                <input type="tel" name="telefone" class="in1">
+            </form>
+        </div>
+        <div class="torto2">
+            <form>
+                <div class="nome">CPF</div>
+                <input type="text" name="cpf" placeholder="000.000.000-00" class="in1">
+            </form>
+            <form>
+                <div class="nome">Email</div>
+                <input type="email" name="Email" class="in1">
+            </form>
+        </div>
+    </div>
+
+    <p class="ttl">Pagamento</p><br>
+    <div class="borda2">
+        <div class="torto3">
+            <form>
+                <div class="nome">Número do Cartão</div>
+                <input type="text" name="cartao" class="in1">
+            </form>
+            <form>
+                <div for="validade" class="nome">Validade</div>
+                <input type="month" name="validade" class="in2">
+            </form>
+            <form>
+                <div for="ccv" class="nome">CCV</div>
+                <input type="text" name="ccv" class="in2">
+            </form>
+        </div>
+        <form>
+            <div for="titular" class="nome">Nome do Titular</div>
+            <input type="text" name="titular" class="in3">
+        </form>
+    </div>
+
+    <p class="ttl">Fretes</p><br>
+    <div class="borda3">
+        <table>
+            <caption></caption>
+            <thead>
+                <tr>
+                    <th  class="c1">Frete</th>
+                    <th  class="c1">Dias Úteis</th>
+                    <th  class="c1">Preço</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="c2">Sedex</td>
+                    <td class="c2">5 dias</td>
+                    <td class="c2">R$ 25,00</td>
+                </tr>
+                <tr>
+                    <td class="c2">Correios</td>
+                    <td class="c2">7 dias</td>
+                    <td class="c2">R$ 21,00</td>
+                </tr>
+                <tr>
+                    <td class="c2">Expresso São Miguel</td>
+                    <td class="c2">14 dias</td>
+                    <td class="c2">R$ 13,00</td>
+                </tr>
+            </tbody>
+            <tfoot>
+            </tfoot>
+        </table>
+    </div>
+
+    <div class="btt">
+        <button class="bt"><a href="index.html">Enviar</a></button>
+    </div>
+    `;
+    let main = document.querySelector("main");
+    main.innerHTML = pagina;
 }
